@@ -27,6 +27,7 @@ Calculation using the saved states : `Random/src/tp5/question4.cc`
 
 In this phase, we parallelized the execution using "sequence splitting" to simultaneously calculate 10 replications of a Monte Carlo simulation for PI estimation. A Bash script launched 10 instances of the C++ program in the background, each with a different status file.
 C++ program : `Random/src/tp5/question5.cc`
+Bash script : `Random/src/tp5/launch_script.sh`
 
 ## Conclusion
 
